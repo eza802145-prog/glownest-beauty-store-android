@@ -3,7 +3,7 @@ name: Android Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -20,10 +20,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - - name: Set up Android SDK
-  uses: android-actions/setup-android@v4
-  with:
-    packages: 'platform-tools'
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
+
       - name: Grant execute permission
         run: chmod +x gradlew
 
