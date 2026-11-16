@@ -1,0 +1,6 @@
+{
+  "name": "GlowNest Beauty Store",
+  "description": "Mobile-first beauty and cosmetics store featuring curated skincare, makeup, haircare, and fragrance priced in Nigerian Naira with direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
